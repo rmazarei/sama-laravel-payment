@@ -2,6 +2,8 @@
 
 namespace TosanSoha\Sama;
 
+use Log;
+
 class VerificationResponse
 {
     /** @var int */
@@ -43,6 +45,8 @@ class VerificationResponse
     public function __construct(int $statusCode, array $result)
     {
         $this->statusCode = $statusCode;
+
+        Log::info('TEST');
 
         if ($this->success()) {
             $this->paymentReqId = $result['uid'];
