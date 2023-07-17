@@ -81,9 +81,9 @@ class VerificationResponse
         return $this->fee;
     }
 
-    public function isPaid(): bool|null
+    public function isPaid(): bool
     {
-        return $this->isPaid;
+        return !!$this->isPaid;
     }
 
     public function paymentId(): string
