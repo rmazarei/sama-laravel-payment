@@ -25,7 +25,7 @@ class VerificationResponse
     /** @var int */
     private $fee;
 
-    /** @var boolean */
+    /** @var boolean|null */
     private $isPaid;
 
     /** @var string|null */
