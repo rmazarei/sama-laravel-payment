@@ -49,6 +49,13 @@ class VerificationResponse
         Log::info('TEST');
 
         if ($this->success()) {
+            Log::info('TEST paymentReqId: ' . $result['uid']);
+            Log::info('TEST price: ' . $result['price']);
+            Log::info('TEST isPaid: ' . $result['is_paid']);
+            Log::info('TEST paymentId: ' . $result['payment']['id']);
+            Log::info('TEST requestId: ' . $result['payment']['request_id']);
+            Log::info('TEST referenceNumber: ' . $result['payment']['reference_number']);
+            Log::info('TEST transactionCode: ' . $result['payment']['transaction_code']);
             $this->paymentReqId = $result['uid'];
             $this->price = $result['price'];
             $this->fee = $result['fee'];
