@@ -47,6 +47,7 @@ class VerificationResponse
         $this->statusCode = $statusCode;
 
         Log::info('TEST');
+        Log::info( print_r($result, true) );
 
         if ($this->success()) {
             Log::info('SUCCESS');
