@@ -1,12 +1,12 @@
 {
-    "name": "sama-ir/sama-laravel-payment",
-    "description": "Sama gateway library for Laravel.",
+    "name": "rmazarei/sama-laravel-payment-rmazarei",
+    "description": "Sama gateway library for Laravel. Some test chnages",
     "keywords": [
         "laravel",
         "sama",
         "payment"
     ],
-    "homepage": "https://github.com/sama-ir/sama-laravel-payment",
+    "homepage": "https://github.com/rmazarei/sama-laravel-payment-rmazarei",
     "license": "MIT",
     "authors": [
         {
